@@ -15,6 +15,7 @@ def appDetailJSON(request, api_key):
         'name': app.name,
         'version': app.version,
         'api_key': app.api_key,
+        'description': app.description
     }
 
     dump = json.dumps(data)
@@ -33,7 +34,7 @@ def generate_key(request, id_app):
             'message': 'Generation of a new API key is completed.',
             'id': app.id,
             'name': app.name,
-            'api_key': app.api_key,
+            'api_key': app.api_key
         }
 
         dump = json.dumps(content)
