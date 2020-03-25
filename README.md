@@ -47,7 +47,7 @@ python manage.py runserver
 ```url
 admin/ - Переход в админку
 api/all - Вывод всех созданных приложений
-api/create - Создание приложение
+api/create - Создание приложения
 api/detail/<id_app> - Вывод информации о приложении по ID
 api/update/<id_app> - Редактирование приложенния по ID
 api/test/<api_key> - Выводит всю информацию о приложении по API ключу
