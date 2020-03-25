@@ -48,12 +48,15 @@ python manage.py runserver
 admin/ - Переход в админку
 api/all - Вывод всех созданных приложений
 api/create - Создание приложение
-api/detail/<id_app> - Выводит информацию о приложении по ID
+api/detail/<id_app> - Вывод информации о приложении по ID
 api/update/<id_app> - Редактирование приложенния по ID
 api/test/<api_key> - Выводит всю информацию о приложении по API ключу
 api/generate-api-key/<id_app> - Генерирует новый API ключ для приложения по его ID
-```
 
+Также, вы можете выводить некоторые ссылки в формате JSON
+/api/all/?format=json - Вывод всех созданных приложений в формате JSON
+/api/detail/<id_app>/?format=json - Вывод информации о приложении по ID в формате JSON
+```
 
 
 Теперь вы успешно можете пользоваться django-api-app.
