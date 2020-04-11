@@ -12,7 +12,7 @@ git clone https://github.com/wultes/django-api-app
 
 Или скачать его по этой [ссылке](https://github.com/wultes/django-api-app/archive/master.zip), а после распаковать его в удобном для вас месте.
 
-Далее, нужно установить нужные библиотеки - это Django 2.2.7 и Rest Framework.
+Далее, нужно установить нужные библиотеки - это Django 2.2.10 и Rest Framework.
 
 ```bash
 pip install -r requirements.txt
